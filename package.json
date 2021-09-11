@@ -1,0 +1,25 @@
+{
+  "name": "learning-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "initial.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViktorShev/Learning-JavaScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViktorShev/Learning-JavaScript/issues"
+  },
+  "homepage": "https://github.com/ViktorShev/Learning-JavaScript#readme",
+  "dependencies": {
+    "eslint-config-standard": "^16.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
