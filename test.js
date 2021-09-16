@@ -1,42 +1,18 @@
-let library = [ 
-    {
-        title: 'Bill Gates',
-        author: 'The Road Ahead',
-        readingStatus: true
-    },
-    {
-        title: 'Steve Jobs',
-        author: 'Walter Isaacson',
-        readingStatus: true
-    },
-    {
-        title: 'Mockingjay: The Final Book of The Hunger Games',
-        author: 'Suzanne Collins',
-        readingStatus: false
-    }
-]
+// Find second highest number in an array
 
-function displayInformation () {
-    const arrLen = library.length
-    for (let i = 0; i < arrLen; i++) {
-        const book = library[i]
-        if (book.readingStatus) {
-            console.log(`Already read '${book.title}' by ${book.author}.`)
-        } else {
-            console.log(`You still need to read '${book.title}' by ${book.author}.`)
-        }
-    }
-}
+// const array = [2, 3, 6, 6, 5]
 
-function displayInformation2 () {
-    library.forEach(function (book) {
-        if (book.readingStatus) {
-            console.log(`Already read '${book.title}' by ${book.author}.`)
-        } else {
-            console.log(`You still need to read '${book.title}' by ${book.author}.`)
-        }
-    })
-}
+// function processData (arr) {
+//     arr.sort((a, b) => a - b)
+//     const maxNum = arr[arr.length - 1]
+//     let secondMaxNum
+//     for (let i = arr.length - 1; i !== -1; i--) {
+//         if (arr[i] !== maxNum) {
+//             secondMaxNum = arr[i]
+//             break
+//         }
+//     }
+//     console.log(secondMaxNum)
+// }
 
-displayInformation()
-displayInformation2()
+// processData(array)
